@@ -8,3 +8,5 @@
   刷机前请更换分区表和uboot,参考链接: https://www.right.com.cn/forum/thread-8402269-1-1.html            
   
   全系带开源硬件加速。
+
+  一键加群：https://qm.qq.com/cgi-bin/qm/qr?k=P2-hsA-EFG07lwFPgm-dqiEJfgPJe6Zk&jump_from=webapi&authKey=2LzGPKxoPuGsOGnk3VBnMbmOshmXP/3/rmHD5R2R+PR1XP5ORu4dV9X+6U1zxZL3
