@@ -70,7 +70,7 @@ UPDATE_PACKAGE "luci-app-dae" "QiuSimons/luci-app-dae" "next"
 UPDATE_PACKAGE "luci-app-pushbot" "zzsj0928/luci-app-pushbot" "master"
 UPDATE_PACKAGE "luci-app-easytier" "EasyTier/luci-app-easytier" "main"
 UPDATE_PACKAGE "easytier" "EasyTier/luci-app-easytier" "main"
-#UPDATE_PACKAGE "quickfile" "sbwml/luci-app-quickfile" "main"
+UPDATE_PACKAGE "quickfile" "sbwml/luci-app-quickfile" "main"
 
 #更新软件包版本
 UPDATE_VERSION() {
@@ -123,7 +123,7 @@ UPDATE_VERSION() {
 # sed -i 's/+xray-core//' luci-app-passwall2/Makefile
 
 # #删除官方的默认插件
-rm -rf ../feeds/luci/applications/luci-app-{passwall*,mosdns,dockerman,dae*,bypass*,attendedsysupgrade}
+rm -rf ../feeds/luci/applications/luci-app-{passwall*,mosdns,dockerman,dae*,bypass*}
 rm -rf ../feeds/packages/net/{dae*}
 #rm -rf ../feeds/packages/net/{v2ray-geodata,dae*}
 
